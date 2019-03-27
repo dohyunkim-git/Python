@@ -16,13 +16,13 @@ print("\n먹고싶은것들 :\n치킨\n피자\n떡볶이\n라면\n")
 print("먹고싶은것들 :\n\t치킨\n\t피자\n\t떡볶이\n\t라면")
 
 learning_lang = 'python '
-print(learning_lang)
-print(learning_lang.rstrip())
-print(learning_lang)
-learning_lang = learning_lang.rstrip()
-print(learning_lang)
+print(learning_lang)    #실행결과 : 'python '
+print(learning_lang.rstrip())    #실행결과 : 'python'
+print(learning_lang)    #실행결과 : 'python '
+learning_lang = learning_lang.rstrip()    #실행결과 : 'python'
+print(learning_lang)    #실행결과 : 'python'
 
 learning_lang = ' python'
-learning_lang.lstrip()
+learning_lang.lstrip()    #실행결과 : 'python'
 
 print('\n\n"sadf"')
